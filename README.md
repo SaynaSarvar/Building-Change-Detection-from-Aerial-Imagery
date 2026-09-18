@@ -166,7 +166,7 @@ pip install torch torchvision transformers albumentations rasterio tqdm matplotl
 Download from the [official WHU page](https://gpcv.whu.edu.cn/data/building_dataset.html) (Building change detection dataset, ~5.4 GB).
 
 ### 4. Get the pretrained footprint model
-This project requires `best_model.pth` from the [Building Footprint Extraction](https://github.com/SaynaSarvar/building-footprint-segformer) project. 
+This project requires `best_model.pth`(https://drive.google.com/file/d/1GgygNaeDE2XN5OiTlUj5FQKcqoNtUipC/view?usp=sharing) from the [Building Footprint Extraction](https://github.com/SaynaSarvar/building-footprint-segformer) project. 
 
 ### 5. Open in Colab
 Open `Building_Change_Detection.ipynb` in Google Colab with a T4 GPU runtime. All preprocessing, training, and evaluation steps are in the notebook.
