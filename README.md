@@ -18,7 +18,7 @@
 ## 🖼️ Qualitative Results
 
 ### Test Predictions
-![Test Results](assets/test_result.png)
+![Test Results](assets/test_Result.png)
 
 > Each row: **Before (2012)** · **After (2016)** · **Ground Truth** · **Error Map** (🟢 TP · 🔴 FP · 🔵 FN)
 
@@ -166,7 +166,7 @@ pip install torch torchvision transformers albumentations rasterio tqdm matplotl
 Download from the [official WHU page](https://gpcv.whu.edu.cn/data/building_dataset.html) (Building change detection dataset, ~5.4 GB).
 
 ### 4. Get the pretrained footprint model
-This project requires `best_model.pth` from the [Building Footprint Extraction](https://github.com/SaynaSarvar/building-footprint-segformer) project. Place it in your Google Drive root.
+This project requires `best_model.pth` from the [Building Footprint Extraction](https://github.com/SaynaSarvar/building-footprint-segformer) project. 
 
 ### 5. Open in Colab
 Open `Building_Change_Detection.ipynb` in Google Colab with a T4 GPU runtime. All preprocessing, training, and evaluation steps are in the notebook.
@@ -206,8 +206,8 @@ If you use the WHU Building Dataset, please cite:
 ## 👩‍💻 Author
 
 **Sayna Sarvar**
-B.Sc. Computer Engineering, Zanjan University
-Researcher, Data Science Lab & DigiTAR Lab, University of Tabriz
+B.Sc. Computer Engineering, Tabriz University
+Researcher, University of Tabriz
 
 [![GitHub](https://img.shields.io/badge/GitHub-SaynaSarvar-black?logo=github)](https://github.com/SaynaSarvar)
 
